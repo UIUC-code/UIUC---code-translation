@@ -18,17 +18,11 @@ Code translation validation
 
 ## 📄 Paper Summaries
 
-[AlphaTrans](https://github.com/UIUC-code/UIUC---code-translation/blob/main/papers/Alexander/AlphaTrans_summary.md)
+[AlphaTrans](https://github.com/UIUC-code/UIUC---code-translation/blob/main/papers/Alexander/AlphaTrans_summary.md)<br>
 [C2SAFERUST](https://github.com/UIUC-code/UIUC---code-translation/blob/main/papers/Alexander/C2SAFERUST_summary.md
-)
-[trans_C2RUST](https://github.com/UIUC-code/UIUC---code-translation/blob/main/papers/Alexander/trans_C2RUST.md)
-[ownership_C2RUST](https://github.com/UIUC-code/UIUC---code-translation/blob/main/papers/Alexander/ownership.md)
-
-### Key Figures & Tables
-| Figure/Table | Description | Key Insight |
-|--------------|-------------|-------------|
-| Fig 1        | ...         | ...         |
-| Table 3      | ...         | ...         |
+)<br>
+[trans_C2RUST](https://github.com/UIUC-code/UIUC---code-translation/blob/main/papers/Alexander/trans_C2RUST.md)<br>
+[ownership_C2RUST](https://github.com/UIUC-code/UIUC---code-translation/blob/main/papers/Alexander/ownership.md)<br>
 
 ---
 
@@ -42,10 +36,7 @@ Code translation validation
 
 ### ✅ Final Selection
 **Chosen Tool**: [Tool Name]  
-**Justification**:  
-1. [Reason 1]  
-2. [Reason 2]  
-3. [Reason 3]  
+
 
 ---
 
