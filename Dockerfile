@@ -1,29 +1,38 @@
+
 FROM ubuntu:22.04
 
-ARG USERNAME=researcher
-ARG USER_UID=1000
-ARG USER_GID=1000
 
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    git \
-    python3-pip \
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
     openssh-server \
-    && apt-get clean
+    ca-certificates \
+    curl \
+    wget \
+    build-essential && \
+    rm -rf /var/lib/apt/lists/*
+
+
+RUN mkdir /var/run/sshd
+
+RUN ssh-keygen -A
 
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
-    && echo $USERNAME:password | chpasswd 
-
-RUN mkdir /var/run/sshd
-EXPOSE 22
+    && echo $USERNAME:password | chpasswd
 
 WORKDIR /home/$USERNAME/project
 COPY . .
 RUN chown -R $USER_UID:$USER_GID /home/$USERNAME
 
 USER $USERNAME
-
 RUN if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
+
+
+
+RUN echo 'root:password' | chpasswd
+
+
+EXPOSE 22
+
 
 CMD ["/usr/sbin/sshd", "-D"]
