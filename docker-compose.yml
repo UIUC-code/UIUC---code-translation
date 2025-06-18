@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  dev-environment:
+    image: uiuccode/uiuc-research:team 
+    build: . 
+    volumes:
+      - ./src:/home/researcher/project  
+    ports:
+      - "2222:22"
+      - "8000:8000" 
+    environment:
+      - TZ=America/Chicago  
+    restart: unless-stopped
