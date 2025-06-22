@@ -1,0 +1,1 @@
+KLEE: WARNING: STP did not return successfully.  Most likely you forgot to run 'ulimit -s unlimited'

@@ -1,0 +1,7 @@
+Error: external call with symbolic argument: strcpy
+File: strcmp_sample.c
+Line: 28
+assembly.ll line: 66
+State: 1
+Stack: 
+	#000000066 in main() at strcmp_sample.c:28

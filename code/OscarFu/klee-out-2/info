@@ -1,0 +1,23 @@
+klee strcmp_sample.bc
+PID: 39
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2025-06-22 10:30:22
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2025-06-22 10:30:22
+Elapsed: 00:00:00
+KLEE: done: explored paths = 1
+KLEE: done: avg. constructs per query = 52
+KLEE: done: total queries = 7
+KLEE: done: valid queries = 2
+KLEE: done: invalid queries = 5
+KLEE: done: query cex = 7
+
+KLEE: done: total instructions = 974
+KLEE: done: completed paths = 0
+KLEE: done: partially completed paths = 1
+KLEE: done: generated tests = 1
