@@ -1,0 +1,3 @@
+| Date       | Reporter | Issue Description         | Solution        | Status    |
+|------------|----------|---------------------------|-----------------|-----------|
+|  2025-06-19|  Tianran Sun | Handling struct inputs in KLEE requires manually declaring each field as symbolic, complicating test harness creation for functions with complex struct parameters. |https://github.com/UIUC-code/UIUC---code-translation/blob/main/report/Alexander/6-23.md | Closed|
