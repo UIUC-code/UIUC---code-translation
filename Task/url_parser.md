@@ -1,0 +1,3 @@
+| Date       | Tester    | Program | Instruction Coverage (ICov%) | Basic Block Coverage (BCov%) | Instruction Count (ICount) | Execution Time (s) |
+|------------|-----------|---------|-------------------------------|------------------------------|----------------------------|--------------------|
+| 2024-06-28 | Alexander | url.c     | 62.47%                        | 48.78%                       | 1,889                      | 263.11             |

@@ -1,0 +1,4 @@
+| Date       | Tester    | Program       | Instruction Coverage (ICov%) | Basic Block Coverage (BCov%) | Instruction Count (ICount) | Execution Time (s) |
+|------------|-----------|---------------|-------------------------------|------------------------------|----------------------------|--------------------|
+| 2025-06-29 | Alexander | Siphash.c     | 96.62%                        | 82.14%                       | 975                        | 0.66               |
+| 2025-06-29 | Alexander | Halfsiphash.c | 95.78%                        | 82.14%                       | 782                        | 0.47               |

@@ -1,0 +1,3 @@
+| Date       | Tester    | Program | Instruction Coverage (ICov%) | Basic Block Coverage (BCov%) | Instruction Count (ICount) | Execution Time (s) |
+|------------|-----------|---------|-------------------------------|------------------------------|----------------------------|--------------------|
+| 2025-06-26 | Alexander | src/rgba.c    | 89.43%                        | 61.45%                       | 1,655                      | 92.17              |

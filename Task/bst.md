@@ -1,0 +1,3 @@
+| Date       | Tester    | Program | Instruction Coverage (ICov%) | Basic Block Coverage (BCov%) | Instruction Count (ICount) | Execution Time (s) |
+|------------|-----------|---------|-------------------------------|------------------------------|----------------------------|--------------------|
+| 2025-06-25 | Alexander | bst.c     | 96.12%                        | 87.23%                       | 696                        | 43.60              |
