@@ -1,3 +1,4 @@
 | Date       | Reporter | Issue Description         | Solution        | Status    |
 |------------|----------|---------------------------|-----------------|-----------|
-|  2025-06-19|  Tianran Sun | Handling struct inputs in KLEE requires manually declaring each field as symbolic, complicating test harness creation for functions with complex struct parameters. |https://github.com/UIUC-code/UIUC---code-translation/blob/main/report/Alexander/6-23.md | Closed|
+
+|  2025-06-28|  Alexander | Current coverage for quadtree and url is low, below 90%. Need to update klee test case generation to cover all cases | None | Open |
