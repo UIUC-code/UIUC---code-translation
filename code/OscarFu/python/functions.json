@@ -1,0 +1,92 @@
+[
+  {
+    "name": "max",
+    "return_type": "int",
+    "parameters": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "location": "raw_c/sample.c:23"
+  },
+  {
+    "name": "fill_array",
+    "return_type": "void",
+    "parameters": [
+      {
+        "name": "arr",
+        "type": "int[]"
+      },
+      {
+        "name": "size",
+        "type": "int"
+      },
+      {
+        "name": "value",
+        "type": "int"
+      }
+    ],
+    "location": "raw_c/sample.c:32"
+  },
+  {
+    "name": "duplicate_string",
+    "return_type": "char *",
+    "parameters": [
+      {
+        "name": "input",
+        "type": "const char *"
+      }
+    ],
+    "location": "raw_c/sample.c:39"
+  },
+  {
+    "name": "for_each",
+    "return_type": "void",
+    "parameters": [
+      {
+        "name": "array",
+        "type": "int *"
+      },
+      {
+        "name": "size",
+        "type": "int"
+      },
+      {
+        "name": "func",
+        "type": "void (*)(int)"
+      }
+    ],
+    "location": "raw_c/sample.c:49"
+  },
+  {
+    "name": "multiply",
+    "return_type": "int",
+    "parameters": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "location": "raw_c/sample.c:61"
+  },
+  {
+    "name": "normalize_vector",
+    "return_type": "enum Status",
+    "parameters": [
+      {
+        "name": "vec",
+        "type": "Vector2 *"
+      }
+    ],
+    "location": "raw_c/sample.c:66"
+  }
+]
