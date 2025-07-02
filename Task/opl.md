@@ -1,0 +1,3 @@
+| Date       | Tester | Program | Instruction Coverage (ICov%) | Basic Block Coverage (BCov%) | Instruction Count (ICount) | Execution Time (s) |
+|------------|--------|---------|-----------------------------|----------------------------|-------------------|-------------------|
+| 2024-07-01 | Alexander   | opl     | 8.71%                       | 50.00%                     | 17                | 0.17              |

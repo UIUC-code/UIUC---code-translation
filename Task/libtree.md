@@ -1,0 +1,3 @@
+| Date       | Tester | Program | Instruction Coverage (ICov%) | Basic Block Coverage (BCov%) | Instruction Count (ICount) | Execution Time (s) |
+|------------|--------|---------|-----------------------------|----------------------------|-------------------|-------------------|
+| 2025-07-01       | Alexander    | libtree | 11.09%                      | 2.41%                      | 4680              | 0.36              |

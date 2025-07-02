@@ -1,0 +1,3 @@
+| Date       | Tester | Program | Instruction Coverage (ICov%) | Basic Block Coverage (BCov%) | Instruction Count (ICount) | Execution Time (s) |
+|------------|--------|---------|-----------------------------|----------------------------|-------------------|-------------------|
+| 2025/01/07        | Alexander    | lil     | 3.85%                       | 0.00%                      | 208               | 0.04              |
