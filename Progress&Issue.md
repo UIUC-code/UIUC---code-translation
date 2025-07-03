@@ -1,32 +1,39 @@
 ## Progress
-| Date       | Tester     | Task                | Number of C files | Completion | Average Test Coverage | Directory Link                                                                                                |
-|------------|------------|---------------------|-------------------|------------|------------------------|---------------------------------------------------------------------------------------------------------------|
-| 2025-07-01 | Alexander  | opl                 | 1                 | 100%       | 8.71%                  | [opl](https://github.com/UIUC-code/UIUC---code-translation/blob/main/Task/opl.md)                             |
-| 2025-07-01 | Alexander  | lil                 | 1                 | 100%       | 3.85%                  | [lil](https://github.com/UIUC-code/UIUC---code-translation/blob/main/Task/lil.md)                             |
-| 2025-07-01 | Alexander  | xzoom               | 1                 | 100%       | 43.71%                 | [xzoom](https://github.com/UIUC-code/UIUC---code-translation/blob/main/Task/xzoom.md)                         |
-| 2025-07-01 | Alexander  | libtree             | 1                 | 100%       | 11.09%                 | [libtree](https://github.com/UIUC-code/UIUC---code-translation/blob/main/Task/libtree.md)                     |
-| -          | -          | bst                 | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | qsort               | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | rgba                | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | quadtree            | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | avl-tree            | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | binn-3.0            | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | buffer-0.4.0        | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | bzip2               | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | genann              | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | grabc               | 1                 | 0%         | -                      | -                                                                                                            |
-| -          | -          | heman               | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | ht                  | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | json-c              | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | libcsv              | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | libopenaptx         | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | libzahl-1.0         | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | lodepng             | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | robotfindskitten    | 1                 | 0%         | -                      | -                                                                                                            |
-| -          | -          | snudown             | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | tulipindicators     | 1                 | 100%       | -                      | -                                                                                                            |
-| -          | -          | zopfli              | 1                 | 0%         | -                      | -                                                                                                            |
-| -          | -          | libtree-3.1         | 1                 | 0%         | -                      | -                                                                                                            |
+| Task                | Completion | Average Test Coverage |
+|---------------------|------------|------------------------|
+| opl                 | 100%       | 8.71%                  |
+| lil                 | 100%       | 3.85%                  |
+| xzoom               | 100%       | 43.71%                 |
+| libtree-3.1.1       | 0%         | 11.09%                 |
+| bst                 | 100%       | 100%                   |
+| qsort               | 100%       | 100%                   |
+| libopenaptx         | 100%       | 100%                   |
+| SipHash             | 100%       | -                      |
+| avl-tree            | 100%       | -                      |
+| binn-3.0            | 100%       | -                      |
+| brotli-1.0.9        | 100%       | -                      |
+| buffer-0.4.0        | 100%       | -                      |
+| bzip2               | 100%       | -                      |
+| coreutils           | 100%       | -                      |
+| genann              | 100%       | -                      |
+| grabc               | 0%         | -                      |
+| heman               | 100%       | -                      |
+| ht                  | 100%       | -                      |
+| json-c              | 100%       | -                      |
+| libcsv              | 100%       | -                      |
+| libzahl-1.0         | 100%       | -                      |
+| lodepng             | 100%       | -                      |
+| optipng-0.7.8       | 100%       | -                      |
+| quadtree            | 100%       | -                      |
+| rgba                | 100%       | -                      |
+| robotfindskitten    | 0%         | -                      |
+| snudown             | 100%       | -                      |
+| time-1.9            | 100%       | -                      |
+| tinycc              | 100%       | -                      |
+| tulipindicators     | 100%       | -                      |
+| url_parser          | 100%       | -                      |
+| which-2.23          | 100%       | -                      |
+| zopfli              | 0%         | -                      |
 
 ## Issue
 | Date       | Reporter   | Issue Description                                                                 | Solution | Status |
