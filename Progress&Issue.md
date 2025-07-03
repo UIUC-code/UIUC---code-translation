@@ -24,7 +24,7 @@
 | -          | -        | libzahl-1.0  | 1                 | 100%       | -          | -                |
 | -          | -        | lodepng      | 1                 | 100%       | -           | -                |
 | -          | -        | robotfindskitten | 1            | 0%         | -              | -                |
-| -          | -        | snudown      | 1                 | 100%       | -              | -                |
+| -          | -        | snudown      | 1                 | 100%       | -      | -                |
 | -          | -        | tulipindicators | 1              | 100%       | -           | -                |
 | -          | -        | zopfli       | 1                 | 0%         | -             | -                |
 | -          | -        | libtree-3.1       | 1                 | 0%         | -      |-                |
