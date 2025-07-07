@@ -9,7 +9,6 @@ def compile_to_bitcode():
     """编译修改后的源文件为LLVM Bitcode"""
     os.makedirs(BC_DIR, exist_ok=True)
     
-    # 尝试找到可用的编译器
     compilers = ["clang-14", "clang-13", "clang-12", "clang-11", "clang", "cc", "gcc"]
     clang_cmd = None
     
@@ -41,7 +40,6 @@ def compile_to_bitcode():
             print(f"Compilation failed: {e}")
             print("Trying with simpler options...")
             
-            # 尝试更简单的编译选项
             simple_cmd = [
                 clang_cmd,
                 "-I", "src",
