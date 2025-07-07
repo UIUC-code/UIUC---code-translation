@@ -6,7 +6,6 @@ MODIFIED_SRC_DIR = Path("modified_src")
 BC_DIR = Path("bitcode")
 
 def compile_to_bitcode():
-    """编译修改后的源文件为LLVM Bitcode"""
     os.makedirs(BC_DIR, exist_ok=True)
     
     compilers = ["clang-14", "clang-13", "clang-12", "clang-11", "clang", "cc", "gcc"]
