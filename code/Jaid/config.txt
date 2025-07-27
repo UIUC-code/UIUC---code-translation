@@ -1,0 +1,4 @@
+binlog_format=ROW
+autocommit=1
+flush_at_trx_commit=1
+query_cache_size=16000 
