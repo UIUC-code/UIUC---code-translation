@@ -1,0 +1,76 @@
+{
+  "c_analysis": {
+    "dangling_pointers": 0,
+    "pointer_arithmetic": 0,
+    "memory_leak_risk": 0,
+    "buffer_overflow_risk": 0,
+    "null_dereference_risk": 2,
+    "memory_operations": {
+      "allocations": 1,
+      "deallocations": 2,
+      "unsafe_functions": {
+        "strcpy": 0,
+        "strcat": 0,
+        "sprintf": 0,
+        "gets": 0,
+        "scanf": 0
+      }
+    }
+  },
+  "rust_analysis": {
+    "ownership_system": {
+      "transfers": 0,
+      "borrows": 10,
+      "mutable_borrows": 3,
+      "lifetimes": 4
+    },
+    "memory_management": {
+      "safe_allocations": 4,
+      "safe_containers": 0
+    },
+    "error_handling": {
+      "option_usage": 4,
+      "result_usage": 0,
+      "unwrap_calls": 0,
+      "expect_calls": 0
+    },
+    "boundary_safety": {
+      "slice_access": 0,
+      "iter_usage": 0
+    }
+  },
+  "rust_compiler_errors": {
+    "error_count": 0,
+    "errors": [],
+    "security_errors": {}
+  },
+  "security_comparison": {
+    "total_c_risks": 2,
+    "total_rust_features": 18,
+    "c_risk_breakdown": {
+      "dangling_pointers": 0,
+      "pointer_arithmetic": 0,
+      "memory_leak_risk": 0,
+      "buffer_overflow_risk": 0,
+      "null_dereference_risk": 2
+    },
+    "rust_feature_breakdown": {
+      "ownership": 10,
+      "memory_safety": 4,
+      "error_handling": 4,
+      "boundary_safety": 0
+    },
+    "memory_comparison": {
+      "c_manual_allocations": 1,
+      "c_manual_deallocations": 2,
+      "rust_auto_allocations": 4,
+      "rust_auto_containers": 0
+    },
+    "intercepted_errors": 0,
+    "rust_error_details": {
+      "error_count": 0,
+      "errors": [],
+      "security_errors": {}
+    }
+  }
+}
